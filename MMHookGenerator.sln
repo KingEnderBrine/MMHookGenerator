@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMHookGenerator", "MMHookGenerator\MMHookGenerator\MMHookGenerator.csproj", "{013E7AD9-0926-472E-B9FF-191EEFAF3C95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMHookGenerator.CodeFixes", "MMHookGenerator\MMHookGenerator.CodeFixes\MMHookGenerator.CodeFixes.csproj", "{1656D783-000F-46E7-A290-AD9CF0E3056F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMHookGenerator.Package", "MMHookGenerator\MMHookGenerator.Package\MMHookGenerator.Package.csproj", "{9436DD89-EC7F-426B-B761-571057AB92B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMHookGenerator.SourceGenerator", "MMHookGenerator.SourceGenerator\MMHookGenerator.SourceGenerator.csproj", "{BE04D4E7-F4E7-4959-80D5-4A1D49170C75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorTest", "GeneratorTest\GeneratorTest.csproj", "{4F8E9E0C-4FDD-458B-8071-F773AFDBB107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMHookGenerator.Intellisense", "MMHookGenerator.Intellisense\MMHookGenerator.Intellisense.csproj", "{F8960456-8FCC-414B-A7CF-120E94B145CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{013E7AD9-0926-472E-B9FF-191EEFAF3C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013E7AD9-0926-472E-B9FF-191EEFAF3C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013E7AD9-0926-472E-B9FF-191EEFAF3C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013E7AD9-0926-472E-B9FF-191EEFAF3C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1656D783-000F-46E7-A290-AD9CF0E3056F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1656D783-000F-46E7-A290-AD9CF0E3056F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1656D783-000F-46E7-A290-AD9CF0E3056F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1656D783-000F-46E7-A290-AD9CF0E3056F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9436DD89-EC7F-426B-B761-571057AB92B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9436DD89-EC7F-426B-B761-571057AB92B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9436DD89-EC7F-426B-B761-571057AB92B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9436DD89-EC7F-426B-B761-571057AB92B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE04D4E7-F4E7-4959-80D5-4A1D49170C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE04D4E7-F4E7-4959-80D5-4A1D49170C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE04D4E7-F4E7-4959-80D5-4A1D49170C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE04D4E7-F4E7-4959-80D5-4A1D49170C75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8E9E0C-4FDD-458B-8071-F773AFDBB107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8E9E0C-4FDD-458B-8071-F773AFDBB107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8E9E0C-4FDD-458B-8071-F773AFDBB107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8E9E0C-4FDD-458B-8071-F773AFDBB107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8960456-8FCC-414B-A7CF-120E94B145CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8960456-8FCC-414B-A7CF-120E94B145CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8960456-8FCC-414B-A7CF-120E94B145CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8960456-8FCC-414B-A7CF-120E94B145CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2CA6D92-438C-4E42-93EC-170F0D34E47E}
+	EndGlobalSection
+EndGlobal
